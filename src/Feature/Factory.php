@@ -7,11 +7,11 @@ use Pheat\Provider\ProviderInterface;
 class Factory
 {
     protected $types = [
-        'variants' => VariantFeature::class,
-        'ratio'    => RatioFeature::class
+        'variants' => 'Pheat\Feature\VariantFeature',
+        'ratio'    => 'Pheat\Feature\RatioFeature'
     ];
 
-    protected $default = Feature::class;
+    protected $default = 'Pheat\Feature\Feature';
 
     /**
      * @param array             $configuration
