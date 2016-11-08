@@ -1,7 +1,7 @@
 {
     "_-x-vim-formatting": " vim: set ft=javascript ts=4 sw=4 et : ",
 
-    "name": "scalopus/pheat",
+    "name": "propertyguru/pheat",
     "description": "Feature manager",
     "license": "MIT",
     "authors": [
