@@ -2,12 +2,9 @@
 
 namespace Pheat\Feature;
 
-use Pheat\ContextInterface;
-use Pheat\Exception\NullException;
 use Pheat\Provider\NullProvider;
 use Pheat\Provider\ProviderInterface;
 use Pheat\Status;
-use Symfony\Component\Validator\Constraints\Null;
 
 /**
  * The null feature
